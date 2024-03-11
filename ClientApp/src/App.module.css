@@ -1,0 +1,61 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-width: 1000px;
+    height: 95vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 100%;
+}
+
+.tableContainer{
+    max-height: 700px;
+}
+
+.tableLabel{
+    margin-top: 50px;
+}
+.filterContainer{
+    display: flex;
+}
+
+
+
+.filterItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.filterSelect{
+    width: 300px;
+    height: 40px;
+}
+
+.datePicker{
+    width: 300px;
+    height: 40px;
+}
+.datePicker input {
+    padding: 7px;
+}
+
+.stickyLeft {
+    position: sticky;
+    left: 0;
+    background-color: white; /* Цвет фона, чтобы выделить фиксированный столбец */
+    z-index: 3 !important; /* Чтобы фиксированный столбец был выше других элементов */
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
+.switchTablesBtn{
+    width: 300px;
+}
